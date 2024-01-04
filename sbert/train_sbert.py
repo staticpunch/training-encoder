@@ -97,5 +97,5 @@ if __name__ == "__main__":
         evaluation_steps=args.evaluation_steps,
         output_path=args.model_save_path,
         checkpoint_save_steps=args.checkpoint_save_steps,
-        checkpoint_save_total_limit=args.checkpoint_save_steps
+        checkpoint_save_total_limit=args.checkpoint_save_total_limit
     )
